@@ -1,5 +1,26 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Main.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="361"/>
+          <SignalUID value="3952"/>
+          <SignalUID value="2929"/>
+          <SignalUID value="1642"/>
+          <SignalUID value="1543"/>
+          <SignalUID value="1298"/>
+          <SignalUID value="2799"/>
+          <SignalUID value="2819"/>
+          <SignalUID value="2212"/>
+        </Generic>
+      </Probes>
+    </VI>
   </Target>
 </Configuration>
